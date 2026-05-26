@@ -41,6 +41,26 @@
     <priority>0.75</priority>
   </url>
   <url>
+    <loc>http://208carkeys.com/car-keys-eagle.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>http://208carkeys.com/car-keys-middleton.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://208carkeys.com/car-keys-emmett.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://208carkeys.com/car-keys-fruitland.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>http://208carkeys.com/faq.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
