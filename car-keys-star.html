@@ -12,12 +12,36 @@
   <meta property="og:url" content="http://208carkeys.com/car-keys-star.html" />
   <meta property="og:image" content="http://208carkeys.com/images/logo.png" />
   <link rel="stylesheet" href="css/styles.css">
+  <style>
+    .dropdown { position: relative; display: inline-block; }
+    .dropdown-content { display: none; position: absolute; background: #fff; min-width: 160px; box-shadow: 0 8px 16px rgba(0,0,0,.2); z-index: 10; }
+    .dropdown:hover .dropdown-content { display: block; }
+    .dropdown-content a { display: block; padding: 8px 12px; color: inherit; text-decoration: none; }
+    .dropdown-content a:hover { background-color: #f0f0f0; }
+  </style>
 </head>
 <body>
   <header class="site-header">
     <div class="container header-inner">
       <a class="brand" href="index.html"><img src="images/logo.png" alt="Master Lock and Key logo"><span>Master Lock and Key</span></a>
-      <nav class="main-nav" aria-label="Main"><a href="index.html">Home</a><a href="car-keys.html">Car Keys</a><a href="manufacturers.html">Brands</a><a href="faq.html">FAQ</a></nav>
+      <nav class="main-nav" aria-label="Main">
+        <a href="index.html">Home</a>
+        <div class="dropdown">
+          <a href="service-area.html" class="dropbtn">Service Area ▼</a>
+          <div class="dropdown-content">
+            <a href="car-keys-boise.html">Boise</a>
+            <a href="car-keys-meridian.html">Meridian</a>
+            <a href="car-keys-star.html">Star</a>
+            <a href="car-keys-nampa.html">Nampa</a>
+            <a href="car-keys-garden-city.html">Garden City</a>
+            <a href="car-keys-caldwell.html">Caldwell</a>
+          </div>
+        </div>
+        <a href="car-keys.html">Car Keys</a>
+        <a href="manufacturers.html">Brands</a>
+        <a href="faq.html">FAQ</a>
+        <a href="tel:+12083655625" class="cta">Call Now</a>
+      </nav>
     </div>
   </header>
 
