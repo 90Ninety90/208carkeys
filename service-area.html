@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Service Area — Master Lock and Key</title>
+  <meta name="description" content="We serve Boise, Meridian, Star, Nampa, Garden City, Caldwell and the greater Treasure Valley with mobile locksmith services." />
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    .dropdown { position: relative; display: inline-block; }
+    .dropdown-content { display: none; position: absolute; background: #fff; min-width: 160px; box-shadow: 0 8px 16px rgba(0,0,0,.2); z-index: 10; }
+    .dropdown:hover .dropdown-content { display: block; }
+    .dropdown-content a { display: block; padding: 8px 12px; color: inherit; text-decoration: none; }
+    .dropdown-content a:hover { background-color: #f0f0f0; }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html"><img src="images/logo.png" alt="Master Lock and Key logo"><span>Master Lock and Key</span></a>
+      <nav class="main-nav" aria-label="Main">
+        <a href="index.html">Home</a>
+        <div class="dropdown">
+          <a href="service-area.html" class="dropbtn">Service Area ▼</a>
+          <div class="dropdown-content">
+            <a href="car-keys-boise.html">Boise</a>
+            <a href="car-keys-meridian.html">Meridian</a>
+            <a href="car-keys-star.html">Star</a>
+            <a href="car-keys-nampa.html">Nampa</a>
+            <a href="car-keys-garden-city.html">Garden City</a>
+            <a href="car-keys-caldwell.html">Caldwell</a>
+          </div>
+        </div>
+        <a href="car-keys.html">Car Keys</a>
+        <a href="manufacturers.html">Brands</a>
+        <a href="faq.html">FAQ</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Service Area</h1>
+    <p>Master Lock and Key proudly serves the following cities in the Treasure Valley. Click a city for specific locksmith services.</p>
+    <ul>
+      <li><a href="car-keys-boise.html">Boise, ID</a></li>
+      <li><a href="car-keys-meridian.html">Meridian, ID</a></li>
+      <li><a href="car-keys-star.html">Star, ID</a></li>
+      <li><a href="car-keys-nampa.html">Nampa, ID</a></li>
+      <li><a href="car-keys-garden-city.html">Garden City, ID</a></li>
+      <li><a href="car-keys-caldwell.html">Caldwell, ID</a></li>
+    </ul>
+  </main>
+
+  <footer class="site-footer"><div class="container"><p>&copy; <span id="year"></span> Master Lock and Key</p></div></footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
